@@ -24,7 +24,7 @@ function Footer3() {
               </div>
               <div className="content">
                 <span>Call Any Time</span>
-                <h6><a href="tel: 29658718617">2-965-871-8617</a></h6>
+                <h6><a href="tel: +88 017 11 223344">+88 017 11 223344</a></h6>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ function Footer3() {
               </svg>
               Address
             </h4>
-            <a href="#">House 168/170, Avenue 01, Mirpur DOHS, Dhaka Bangladesh</a>
+            <a href="#">Address</a>
           </div>
           <div className="footer-contact mb-40">
             <h4>
@@ -52,22 +52,10 @@ function Footer3() {
               </svg>
               Say Hello
             </h4>
-            <a href="mailto:ifo@example.com">ifo@example.com</a><br />
-            <a href="mailto:info@support.com">info@support.com</a>
+            <a href="mailto:info@everdots.com">info@everdots.com</a><br />
+          
           </div>
-          <div className="footer-contact">
-            <h6>See Our New updates</h6>
-            <form>
-              <div className="form-inner">
-                <input type="text" placeholder="Email here..." />
-                <button type="submit">
-                  <svg width={17} height={17} viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0 1H12M12 1V13M12 1L0.5 12" />
-                  </svg>
-                </button>
-              </div>
-            </form>
-          </div>
+         
         </div>
       </div>
       <div className="col-lg-3 col-sm-6 d-flex justify-content-lg-start justify-content-sm-end">
@@ -129,7 +117,7 @@ function Footer3() {
         <div className="col-lg-12">
           <div className="footer-btn-content">
             <div className="copyright-area">
-              <p>©Copyright 2023 <a href="#">Softconic</a> | Design By <a href="https://www.egenslab.com/">Egens Lab</a></p>
+              <p>©Copyright 2025 <a href="#">Everdots</a> </p>
             </div>
             <div className="footer-social">
               <ul>

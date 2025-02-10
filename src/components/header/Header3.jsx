@@ -93,9 +93,7 @@ function Header3() {
         </div>
         <div className="sidebar-content">
           <p>
-            Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo
-            libero. Donec nec duomoi luctus, pellentesque lacus sed, mollis
-            going leo.
+          Everdots’ consultancy services empower digital transformation through strategic insight and AI-driven innovation. We tailor solutions to your unique challenges, delivering sustainable growth and measurable impact.
           </p>
         </div>
         <div className="address-card">
@@ -107,8 +105,7 @@ function Header3() {
                 </div>
                 <div className="info">
                   <p>
-                    168/170, Avenue 01, Old York Drive Rich Mirpur DOHS,
-                    Bangladesh
+                   Address
                   </p>
                 </div>
               </div>
@@ -117,8 +114,8 @@ function Header3() {
                   <i className="fas fa-phone-alt" />
                 </div>
                 <div className="info">
-                  <a href="tel:05661111985">+880 566 1111 985</a>
-                  <a href="tel:06571111576">+880 657 1111 576</a>
+                  <a href="tel:+8801711223344">+88 017 11 223344</a>
+                 
                 </div>
               </div>
               <div className="single-info">
@@ -126,8 +123,8 @@ function Header3() {
                   <i className="far fa-envelope" />
                 </div>
                 <div className="info">
-                  <a href="mailto: info@example.com">info@example.com</a>
-                  <a href="mailto: info@support.com">info@support.com</a>
+                  <a href="mailto: info@everdots.com">info@everdots.com</a>
+                 
                 </div>
               </div>
             </div>
