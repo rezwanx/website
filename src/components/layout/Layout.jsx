@@ -10,9 +10,9 @@ function Layout({ children }) {
     <>
      <Head>
         <title>
-          Everdots- Accelerating Digital Intelligence
+          Everdots - Accelerating Digital Intelligence
         </title>
-        <meta name="description" content="Discover AI-driven solutions at Everdots—your partner in digital automation and innovation. Accelerate business growth with cutting-edge intelligence." />
+        <meta name="description" content="Discover AI - driven solutions at Everdots — your partner in digital automation and innovation. Accelerate business growth with cutting-edge intelligence." />
         <link rel="icon" href="/assets/img/sm-logo.svg" />
       </Head>
       <Header />
