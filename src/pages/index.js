@@ -20,10 +20,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-        Everdots - Accelerating Digital Intelligence
-        </title>
-        <meta name="description" content= "Discover AI - driven solutions at Everdots — your partner in digital automation and innovation. Accelerate business growth with cutting-edge intelligence." />
+        <title>Everdots - Accelerating Digital Intelligence</title>
+        <meta
+          name="description"
+          content="Discover AI - driven solutions at Everdots — your partner in digital automation and innovation. Accelerate business growth with cutting-edge intelligence."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/img/sm-logo.svg" />
       </Head>
@@ -33,9 +34,9 @@ export default function Home() {
       <Partner3 />
       <Solution3 />
       <About3 />
-    
+
       <Home3Contact />
-     
+
       <Footer3 />
     </>
   );

@@ -22,11 +22,11 @@ function team3() {
                         <i className="bx bxl-instagram" />
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="https://www.pinterest.com/">
                         <i className="bx bxl-pinterest-alt" />
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="https://twitter.com/">
                         <i className="bx bxl-twitter" />
