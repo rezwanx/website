@@ -5,11 +5,7 @@ import React from "react";
 function Contactpage() {
   return (
     <Layout>
-      <Breadcrumb
-        pageList="Contact"
-        title="For Any Querry"
-        pageName="CONTACT"
-      />
+      <Breadcrumb pageList="Contact" title="For Any Query" pageName="CONTACT" />
       <div className="contact-page-wrap sec-mar">
         <div className="container">
           <div className="row g-lg-4 gy-5">
@@ -18,9 +14,10 @@ function Contactpage() {
                 <span>CONTACT WITH US</span>
                 <h2>LET’S WORK TOGETHER?</h2>
                 <p>
-                  I have worls-class, flexible support via live chat, email and
-                  hone. I guarantee that you’ll be able to have any issue
-                  resolved within 24 hours.
+                  Our dedicated support team is available to assist you via live
+                  chat, email, and other channels. We guarantee a response to
+                  any issue within 24 hours and strive to provide world-class
+                  support to ensure your complete satisfaction.
                 </p>
                 <div className="informations">
                   <div className="single-info">
@@ -73,11 +70,11 @@ function Contactpage() {
                           <i className="bx bxl-instagram" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://www.pinterest.com/">
                           <i className="bx bxl-pinterest" />
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

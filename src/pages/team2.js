@@ -33,11 +33,11 @@ function Team2Page() {
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://www.pinterest.com/">
                           <i className="bx bxl-pinterest-alt" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://www.instagram.com/">
                           <i className="bx bxl-instagram" />
@@ -76,11 +76,11 @@ function Team2Page() {
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://www.pinterest.com/">
                           <i className="bx bxl-pinterest-alt" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://www.instagram.com/">
                           <i className="bx bxl-instagram" />
@@ -119,11 +119,11 @@ function Team2Page() {
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://www.pinterest.com/">
                           <i className="bx bxl-pinterest-alt" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://www.instagram.com/">
                           <i className="bx bxl-instagram" />
@@ -162,11 +162,11 @@ function Team2Page() {
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://www.pinterest.com/">
                           <i className="bx bxl-pinterest-alt" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://www.instagram.com/">
                           <i className="bx bxl-instagram" />
@@ -205,11 +205,11 @@ function Team2Page() {
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://www.pinterest.com/">
                           <i className="bx bxl-pinterest-alt" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://www.instagram.com/">
                           <i className="bx bxl-instagram" />
@@ -248,11 +248,11 @@ function Team2Page() {
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://www.pinterest.com/">
                           <i className="bx bxl-pinterest-alt" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://www.instagram.com/">
                           <i className="bx bxl-instagram" />
@@ -291,11 +291,11 @@ function Team2Page() {
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://www.pinterest.com/">
                           <i className="bx bxl-pinterest-alt" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://www.instagram.com/">
                           <i className="bx bxl-instagram" />
@@ -334,11 +334,11 @@ function Team2Page() {
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="https://www.pinterest.com/">
                           <i className="bx bxl-pinterest-alt" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
                         <a href="https://www.instagram.com/">
                           <i className="bx bxl-instagram" />

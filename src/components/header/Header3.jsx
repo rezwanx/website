@@ -93,7 +93,10 @@ function Header3() {
         </div>
         <div className="sidebar-content">
           <p>
-            Everdots’ consultancy services empower digital transformation through strategic insight and AI-driven innovation. We tailor solutions to your unique challenges, delivering sustainable growth and measurable impact.
+            Everdots’ consultancy services empower digital transformation
+            through strategic insight and AI-driven innovation. We tailor
+            solutions to your unique challenges, delivering sustainable growth
+            and measurable impact.
           </p>
         </div>
         <div className="address-card">
@@ -104,9 +107,7 @@ function Header3() {
                   <i className="fas fa-map-marker-alt" />
                 </div>
                 <div className="info">
-                  <p>
-                    Address
-                  </p>
+                  <p>Address</p>
                 </div>
               </div>
               <div className="single-info">
@@ -115,7 +116,6 @@ function Header3() {
                 </div>
                 <div className="info">
                   <a href="tel:+8801711223344">+88 017 11 223344</a>
-
                 </div>
               </div>
               <div className="single-info">
@@ -124,7 +124,6 @@ function Header3() {
                 </div>
                 <div className="info">
                   <a href="mailto: info@everdots.com">info@everdots.com</a>
-
                 </div>
               </div>
             </div>
@@ -151,11 +150,11 @@ function Header3() {
                   <i className="bx bxl-instagram" />
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://www.pinterest.com/">
                   <i className="bx bxl-pinterest" />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -189,7 +188,7 @@ function Header3() {
             </div>
           </div>
           <ul className="menu-list">
-          <li className={`${currentRoute === "/" ? "active" : ""}`}>
+            <li className={`${currentRoute === "/" ? "active" : ""}`}>
               <Link legacyBehavior href="/">
                 <a>Home</a>
               </Link>
@@ -269,9 +268,15 @@ function Header3() {
           <div className="sidebar-btn2" onClick={toggleLeftSidebar}>
             <img src="assets/img/home-3/sidebar-btn.svg" alt="" />
           </div>
+          <div className="header-btn d-xl-flex d-none">
+            <Link legacyBehavior href="/contact">
+              <a className="primary-btn3">Get A Quote</a>
+            </Link>
+          </div>
           <div
-            className={`sidebar-button mobile-menu-btn ${state.isSidebarOpenMenu ? "active" : ""
-              }`}
+            className={`sidebar-button mobile-menu-btn ${
+              state.isSidebarOpenMenu ? "active" : ""
+            }`}
             onClick={toggleSidebarMenu}
           >
             <span />
