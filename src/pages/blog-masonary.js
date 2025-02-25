@@ -72,12 +72,12 @@ function BlogMasonaryPage() {
                     <div className="social-area">
                       <ul>
                         <li>
-                          <a href="https://www.facebook.com/">
+                          <a href="https://www.facebook.com/everdots">
                             <i className="bx bxl-facebook" />
                           </a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/">
+                          <a href="https://x.com/xeverdots">
                             <i className="bx bxl-twitter" />
                           </a>
                         </li>
@@ -87,7 +87,7 @@ function BlogMasonaryPage() {
                           </a>
                         </li> */}
                         <li>
-                          <a href="https://www.instagram.com/">
+                          <a href="https://www.instagram.com/xeverdots/">
                             <i className="bx bxl-instagram" />
                           </a>
                         </li>
@@ -156,12 +156,12 @@ function BlogMasonaryPage() {
                     <div className="social-area">
                       <ul>
                         <li>
-                          <a href="https://www.facebook.com/">
+                          <a href="https://www.facebook.com/everdots">
                             <i className="bx bxl-facebook" />
                           </a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/">
+                          <a href="https://x.com/xeverdots">
                             <i className="bx bxl-twitter" />
                           </a>
                         </li>
@@ -171,7 +171,7 @@ function BlogMasonaryPage() {
                           </a>
                         </li> */}
                         <li>
-                          <a href="https://www.instagram.com/">
+                          <a href="https://www.instagram.com/xeverdots/">
                             <i className="bx bxl-instagram" />
                           </a>
                         </li>
@@ -240,12 +240,12 @@ function BlogMasonaryPage() {
                     <div className="social-area">
                       <ul>
                         <li>
-                          <a href="https://www.facebook.com/">
+                          <a href="https://www.facebook.com/everdots">
                             <i className="bx bxl-facebook" />
                           </a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/">
+                          <a href="https://x.com/xeverdots">
                             <i className="bx bxl-twitter" />
                           </a>
                         </li>
@@ -255,7 +255,7 @@ function BlogMasonaryPage() {
                           </a>
                         </li> */}
                         <li>
-                          <a href="https://www.instagram.com/">
+                          <a href="https://www.instagram.com/xeverdots/">
                             <i className="bx bxl-instagram" />
                           </a>
                         </li>
@@ -324,12 +324,12 @@ function BlogMasonaryPage() {
                     <div className="social-area">
                       <ul>
                         <li>
-                          <a href="https://www.facebook.com/">
+                          <a href="https://www.facebook.com/everdots">
                             <i className="bx bxl-facebook" />
                           </a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/">
+                          <a href="https://x.com/xeverdots">
                             <i className="bx bxl-twitter" />
                           </a>
                         </li>
@@ -339,7 +339,7 @@ function BlogMasonaryPage() {
                           </a>
                         </li> */}
                         <li>
-                          <a href="https://www.instagram.com/">
+                          <a href="https://www.instagram.com/xeverdots/">
                             <i className="bx bxl-instagram" />
                           </a>
                         </li>
@@ -408,12 +408,12 @@ function BlogMasonaryPage() {
                     <div className="social-area">
                       <ul>
                         <li>
-                          <a href="https://www.facebook.com/">
+                          <a href="https://www.facebook.com/everdots">
                             <i className="bx bxl-facebook" />
                           </a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/">
+                          <a href="https://x.com/xeverdots">
                             <i className="bx bxl-twitter" />
                           </a>
                         </li>
@@ -423,7 +423,7 @@ function BlogMasonaryPage() {
                           </a>
                         </li> */}
                         <li>
-                          <a href="https://www.instagram.com/">
+                          <a href="https://www.instagram.com/xeverdots/">
                             <i className="bx bxl-instagram" />
                           </a>
                         </li>
@@ -492,12 +492,12 @@ function BlogMasonaryPage() {
                     <div className="social-area">
                       <ul>
                         <li>
-                          <a href="https://www.facebook.com/">
+                          <a href="https://www.facebook.com/everdots">
                             <i className="bx bxl-facebook" />
                           </a>
                         </li>
                         <li>
-                          <a href="https://twitter.com/">
+                          <a href="https://x.com/xeverdots">
                             <i className="bx bxl-twitter" />
                           </a>
                         </li>
@@ -507,7 +507,7 @@ function BlogMasonaryPage() {
                           </a>
                         </li> */}
                         <li>
-                          <a href="https://www.instagram.com/">
+                          <a href="https://www.instagram.com/xeverdots/">
                             <i className="bx bxl-instagram" />
                           </a>
                         </li>

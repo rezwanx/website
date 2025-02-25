@@ -56,12 +56,12 @@ function Banner3() {
       <div className="social-area">
         <ul>
           <li>
-            <a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/everdots">
               <i className="bx bxl-facebook" />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/">
+            <a href="https://x.com/xeverdots">
               <i className="bx bxl-twitter" />
             </a>
           </li>
@@ -71,7 +71,7 @@ function Banner3() {
             </a>
           </li> */}
           <li>
-            <a href="https://www.instagram.com/">
+            <a href="https://www.instagram.com/xeverdots/">
               <i className="bx bxl-instagram" />
             </a>
           </li>
@@ -114,7 +114,7 @@ function Banner3() {
               <div className="banner-image magnetic-item">
                 <img
                   className="img-fluid"
-                  src="assets/img/home-3/home3-banner-img.png"
+                  src="assets/img/home-3/Accelerate-comp.png"
                   alt=""
                 />
               </div>
@@ -180,7 +180,7 @@ function Banner3() {
               <div className="banner-image magnetic-item">
                 <img
                   className="img-fluid"
-                  src="assets/img/home-3/home3-banner-img3.png"
+                  src="assets/img/home-3/Propel-comp.png"
                   alt=""
                 />
               </div>
@@ -250,7 +250,7 @@ function Banner3() {
               <div className="banner-image magnetic-item">
                 <img
                   className="img-fluid"
-                  src="assets/img/home-3/home3-banner-img2.png"
+                  src="assets/img/home-3/Ignite-1.png"
                   alt=""
                 />
               </div>

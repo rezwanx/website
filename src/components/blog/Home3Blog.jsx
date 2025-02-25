@@ -78,18 +78,18 @@ function Home3Blog() {
                   <div className="social-area">
                     <ul>
                       <li>
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/everdots">
                           <i className="bx bxl-facebook" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://twitter.com/">
+                        <a href="https://x.com/xeverdots">
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
                       {/* <li><a href="https://www.pinterest.com/"><i className="bx bxl-pinterest-alt" /></a></li> */}
                       <li>
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/xeverdots/">
                           <i className="bx bxl-instagram" />
                         </a>
                       </li>
@@ -158,12 +158,12 @@ function Home3Blog() {
                   <div className="social-area">
                     <ul>
                       <li>
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/everdots">
                           <i className="bx bxl-facebook" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://twitter.com/">
+                        <a href="https://x.com/xeverdots">
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
@@ -173,7 +173,7 @@ function Home3Blog() {
                         </a>
                       </li> */}
                       <li>
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/xeverdots/">
                           <i className="bx bxl-instagram" />
                         </a>
                       </li>
@@ -242,12 +242,12 @@ function Home3Blog() {
                   <div className="social-area">
                     <ul>
                       <li>
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/everdots">
                           <i className="bx bxl-facebook" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://twitter.com/">
+                        <a href="https://x.com/xeverdots">
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
@@ -257,7 +257,7 @@ function Home3Blog() {
                         </a>
                       </li> */}
                       <li>
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/xeverdots/">
                           <i className="bx bxl-instagram" />
                         </a>
                       </li>

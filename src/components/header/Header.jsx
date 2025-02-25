@@ -139,17 +139,17 @@ function Header() {
           <div className="blog-widget-body">
             <ul className="follow-list d-flex flex-row align-items-start gap-4">
               <li>
-                <a href="https://www.facebook.com/">
+                <a href="https://www.facebook.com/everdots">
                   <i className="bx bxl-facebook" />
                 </a>
               </li>
               <li>
-                <a href="https://www.twitter.com/">
+                <a href="https://x.com/xeverdots">
                   <i className="bx bxl-twitter" />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/xeverdots/">
                   <i className="bx bxl-instagram" />
                 </a>
               </li>

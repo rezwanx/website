@@ -20,7 +20,7 @@ function TechnologyPage() {
               <div className="case-big-img magnetic-item">
                 <img
                   className="img-fluid"
-                  src="assets/img/inner-pages/case-study-img-01.png"
+                  src="assets/img/technology/1343x558.png"
                   alt=""
                 />
               </div>
@@ -64,7 +64,7 @@ function TechnologyPage() {
                   <div className="case-img magnetic-item">
                     <img
                       className="img-fluid"
-                      src="assets/img/inner-pages/case-study-img-02.png"
+                      src="assets/img/technology/632x469.png"
                       alt=""
                     />
                   </div>
@@ -75,7 +75,7 @@ function TechnologyPage() {
                   <div className="case-img magnetic-item">
                     <img
                       className="img-fluid"
-                      src="assets/img/inner-pages/case-study-img-03.png"
+                      src="assets/img/technology/632x426.png"
                       alt=""
                     />
                   </div>
@@ -198,7 +198,7 @@ function TechnologyPage() {
                       <div className="case-img magnetic-item">
                         <img
                           className="img-fluid"
-                          src="assets/img/inner-pages/case-study-img-04.png"
+                          src="assets/img/technology/655x515_1.png"
                           alt=""
                         />
                       </div>
@@ -207,7 +207,7 @@ function TechnologyPage() {
                       <div className="case-img magnetic-item">
                         <img
                           className="img-fluid"
-                          src="assets/img/inner-pages/case-study-img-05.png"
+                          src="assets/img/technology/655x515_2.png"
                           alt=""
                         />
                       </div>
