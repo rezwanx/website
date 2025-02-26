@@ -107,7 +107,7 @@ function Header3() {
                   <i className="fas fa-map-marker-alt" />
                 </div>
                 <div className="info">
-                  <p>Address</p>
+                  <p>9th Floor, House: 5 Road: 11, Block G Banani</p>
                 </div>
               </div>
               <div className="single-info">
@@ -136,17 +136,17 @@ function Header3() {
           <div className="blog-widget-body">
             <ul className="follow-list d-flex flex-row align-items-start gap-4">
               <li>
-                <a href="https://www.facebook.com/">
+                <a href="https://www.facebook.com/everdots">
                   <i className="bx bxl-facebook" />
                 </a>
               </li>
               <li>
-                <a href="https://www.twitter.com/">
+                <a href="https://x.com/xeverdots">
                   <i className="bx bxl-twitter" />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/">
+                <a href="https://www.instagram.com/xeverdots/">
                   <i className="bx bxl-instagram" />
                 </a>
               </li>
@@ -252,7 +252,7 @@ function Header3() {
                 <div className="email-info">
                   <span>Email Now</span>
                   <h6>
-                    <a href="mailto:example@gmail.com">example@gmail.com</a>
+                    <a href="mailto:info@everdots.com">info@everdots.com</a>
                   </h6>
                 </div>
               </div>

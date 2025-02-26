@@ -25,10 +25,7 @@ function Contactpage() {
                       <i className="fas fa-map-marker-alt" />
                     </div>
                     <div className="info">
-                      <p>
-                        168/170, Avenue 01, Old York <br /> Drive Rich Mirpur
-                        DOHS, Bangladesh
-                      </p>
+                      <p>9th Floor, House: 5 Road: 11, Block G Banani</p>
                     </div>
                   </div>
                   <div className="single-info">
@@ -45,8 +42,8 @@ function Contactpage() {
                       <i className="far fa-envelope" />
                     </div>
                     <div className="info">
-                      <a href="mailto: info@example.com">info@example.com</a>
-                      <a href="mailto: info@support.com">info@support.com</a>
+                      <a href="mailto: info@everdots.com">info@everdots.com</a>
+                      {/* <a href="mailto: info@support.com">info@support.com</a> */}
                     </div>
                   </div>
                 </div>
@@ -56,17 +53,17 @@ function Contactpage() {
                   <div className="blog-widget-body">
                     <ul className="follow-list d-flex flex-row align-items-start gap-4">
                       <li>
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/everdots">
                           <i className="bx bxl-facebook" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.twitter.com/">
+                        <a href="https://x.com/xeverdots">
                           <i className="bx bxl-twitter" />
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/xeverdots/">
                           <i className="bx bxl-instagram" />
                         </a>
                       </li>

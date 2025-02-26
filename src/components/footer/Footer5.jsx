@@ -225,18 +225,18 @@ function Footer5() {
                 <div className="footer-social">
                   <ul>
                     <li>
-                      <a href="https://www.facebook.com/">
+                      <a href="https://www.facebook.com/everdots">
                         <i className="bx bxl-facebook" />
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/">
+                      <a href="https://x.com/xeverdots">
                         <i className="bx bxl-twitter" />
                       </a>
                     </li>
                     {/* <li><a href="https://www.linkedin.com/"><i className="bx bxl-pinterest-alt" /></a></li> */}
                     <li>
-                      <a href="https://www.instagram.com/">
+                      <a href="https://www.instagram.com/xeverdots/">
                         <i className="bx bxl-instagram" />
                       </a>
                     </li>
