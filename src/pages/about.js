@@ -18,13 +18,13 @@ function AboutPage() {
         pageName="ABOUT"
       />
       <About3 />
-      <Choose6 />
+      {/* <Choose6 />  */}
       <Feature4 />
-      <Partnar4 />
-      <Testimonial3 />
-      <Home3Team />
+      {/* <Partnar4 /> */}
+      {/* <Testimonial3 /> */}
+      {/* <Home3Team /> */}
       <Home3Contact />
-      <Home3Blog />
+      {/* <Home3Blog /> */}
     </Layout>
   );
 }

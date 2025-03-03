@@ -19,9 +19,11 @@ function About3() {
             >
               <h2>Our Approach</h2>
               <p>
-                Services are professional offerings provided by businesses to
-                meet specific needs or solve problems for their customers.
-                Services can range from your budject.
+                At Softconic, we adopt a strategic and client-centric approach
+                to delivering innovative IT solutions tailored to meet the
+                evolving needs of modern businesses. Our expertise spans a wide
+                range of services, ensuring scalability, efficiency, and
+                reliability for organizations of all sizes.
               </p>
             </div>
             <div className="about-left">
@@ -52,11 +54,11 @@ function About3() {
                 <ul className="about-feature">
                   <li>
                     <h5>Customized Solutions</h5>
-                    <p>Services are professional w offerings provided.</p>
+                    <p>Expert solutions tailored to your needs.</p>
                   </li>
                   <li>
                     <h5>Quality Reliability</h5>
-                    <p>Services are professional w offerings provided.</p>
+                    <p>Smooth, efficient business operations.</p>
                   </li>
                 </ul>
               </div>
@@ -85,7 +87,7 @@ function About3() {
                 </div>
                 <div className="years">
                   <h2>
-                    10
+                    02
                     <br />
                     <span>Years</span>
                   </h2>

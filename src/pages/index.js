@@ -31,7 +31,7 @@ export default function Home() {
 
       <Header3 />
       <Banner3 />
-      <Partner3 />
+      {/* <Partner3 />  */}
       <Solution3 />
       <About3 />
 

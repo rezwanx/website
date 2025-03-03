@@ -26,16 +26,12 @@ function TechnologyPage() {
               </div>
               <div className="case-content mb-60">
                 <p>
-                  Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                  Etiam eu nibh elementum, accumsan ona neque ac, aliquet nunc.
-                  In eu ipsum fringilla, accumsan purus vel, pellentesque risus.
-                  Vivamus vehicula nl purus at eros interdum, in dignissim nulla
-                  vestibulum. Nunc sit amet finibus felis, ut egestas lacus.
-                  Sedan pellentesque quis magna eu vestibulum. Ut sed commodo
-                  neque. Morbi erat nisi, vehicula quis faucibus il aliquet
-                  nunc. In eu ipsum fringilla, accumsan purus vel, pellentesque
-                  risus. Vivamus vehicula noted by thi ut, hendrerit vel tortor.
-                  In pharetra lectus luctus ornare sollicitudin.
+                  At our company, we are committed to driving technological
+                  excellence by developing solutions that prioritize
+                  scalability, reliability, and efficiency. Our cutting-edge
+                  innovations empower businesses to optimize operations,
+                  streamline workflows, and enhance digital experiences in an
+                  ever-evolving tech landscape.
                 </p>
               </div>
               <div className="row g-lg-4 gy-5 mb-120">
@@ -43,20 +39,21 @@ function TechnologyPage() {
                   <div className="case-content">
                     <h2>Overview</h2>
                     <p>
-                      Interdum et malesuada fames ac ante ipsum primis in
-                      faucibus. Etiam eu nibh neque ac, aliquet nunc. In eu
-                      ipsum fringilla, accumsan purus vel, pellentesque purus at
-                      eros interdum, in dignissim nulla vestibulum. Nunc sit
-                      amet finibus pellentesque quis magna eu vestibulum. Ut sed
-                      commodo neque. Morbi erat ut, hendrerit vel tortor. In
-                      pharetra lectus luctus ornare sollicitudin.
+                      In an era where digital transformation is imperative, our
+                      expertise lies in delivering robust IT solutions tailored
+                      to meet the diverse needs of businesses. Leveraging
+                      industry best practices, we craft scalable architectures,
+                      implement AI-driven automation, and ensure seamless
+                      integration of advanced technologies to enhance
+                      productivity and operational agility.
                     </p>
                     <p>
-                      Interdum et malesuada fames ac ante ipsum primis in
-                      faucibus. Etiam eu nibh neque ac, aliquet nunc. In eu
-                      ipsum fringilla, accumsan purus vel, pellentesque purus at
-                      eros interdum, in dignissim nulla vestibulum. Nunc sit
-                      amet finibus pellentesque quis magna eu vestibulum.
+                      Our approach is rooted in a deep understanding of modern
+                      IT ecosystems, enabling us to provide tailored solutions
+                      that align with our clients' goals. Whether it’s cloud
+                      computing, cybersecurity, or enterprise-grade software
+                      development, we ensure efficiency, security, and
+                      adaptability.
                     </p>
                   </div>
                 </div>
@@ -84,18 +81,22 @@ function TechnologyPage() {
                   <div className="case-content">
                     <h2>Solution</h2>
                     <p>
-                      Interdum et malesuada fames ac ante ipsum primis in
-                      faucibus. Etiam eu nibh neque ac, aliquet nunc. In eu
-                      ipsum fringilla, accumsan purus vel, pellentesque purus at
-                      eros interdum, in dignissim nulla vestibulum. Nunc sit
-                      amet finibus pellentesque quis magna eu vestibulum. Ut sed
-                      commodo neque. Morbi erat ut, hendrerit vel tortor. In
-                      pharetra lectus luctus ornare sollicitudin.
+                      To address the complex challenges of the digital world,
+                      our firm employs a strategic, data-driven approach that
+                      integrates: Advanced AI & Machine Learning – Automating
+                      processes, optimizing decision-making, and driving
+                      innovation. Cloud-Native Solutions – Enhancing
+                      flexibility, scalability, and security for businesses of
+                      all sizes. Cybersecurity Frameworks – Implementing
+                      industry-leading security measures to protect critical
+                      assets. Enterprise Software Development – Designing and
+                      developing custom software that meets specific business
+                      needs with agility and efficiency.
                     </p>
                     <p>
-                      Interdum et malesuada fames ac ante ipsum primis in
-                      faucibus. Etiam eu nibh neque ac, aliquet nunc. In eu
-                      ipsum fringilla, accumsan purus.
+                      Our solutions are designed to future-proof businesses,
+                      ensuring they remain competitive in an ever-changing
+                      technological landscape.
                     </p>
                   </div>
                 </div>
@@ -105,13 +106,8 @@ function TechnologyPage() {
                   <div className="case-content mb-60">
                     <h2>Process</h2>
                     <p>
-                      Interdum et malesuada fames ac ante ipsum primis in
-                      faucibus. Etiam eu nibh elementum, accumsan ona neque ac,
-                      aliquet nunc. In eu ipsum fringilla, accumsan purus vel,
-                      pellentesque risus. Vivamus vehicula nl pellentesque quis
-                      magna eu vestibulum. Ut sed Vivamus vehicula noted by thi
-                      ut, hendrerit vel tortor. In pharetra lectus luctus ornare
-                      sollicitudin.
+                      We follow a structured, result-oriented process that
+                      ensures successful IT implementation.
                     </p>
                   </div>
                   <div className="row g-4 justify-content-center">
@@ -126,8 +122,9 @@ function TechnologyPage() {
                         <span>Step 01</span>
                         <h3>Research</h3>
                         <p>
-                          Interdum et malesuada fames ac Etiam europeat nibh
-                          elementum, accumsan ona.
+                          We conduct in-depth analysis, assess challenges, and
+                          strategize solutions that align with business
+                          objectives.
                         </p>
                       </div>
                     </div>
@@ -142,8 +139,9 @@ function TechnologyPage() {
                         <span>Step 02</span>
                         <h3>Development</h3>
                         <p>
-                          Interdum et malesuada fames ac Etiam europeat nibh
-                          elementum, accumsan ona.
+                          Our expert engineers design and build scalable,
+                          high-performance IT systems, ensuring seamless
+                          functionality and integration.
                         </p>
                       </div>
                     </div>
@@ -158,8 +156,9 @@ function TechnologyPage() {
                         <span>Step 03</span>
                         <h3>Testing</h3>
                         <p>
-                          Interdum et malesuada fames ac Etiam europeat nibh
-                          elementum, accumsan ona.
+                          Rigorous testing frameworks guarantee system
+                          reliability, security, and performance optimization
+                          before deployment.
                         </p>
                       </div>
                     </div>
@@ -171,8 +170,9 @@ function TechnologyPage() {
                         <span>Step 04</span>
                         <h3>Deploy</h3>
                         <p>
-                          Interdum et malesuada fames ac Etiam europeat nibh
-                          elementum, accumsan ona.
+                          We implement and monitor the solution to ensure smooth
+                          adoption, offering continuous support for maximum
+                          efficiency.
                         </p>
                       </div>
                     </div>
@@ -182,16 +182,7 @@ function TechnologyPage() {
               <div className="row">
                 <div className="col-lg-12">
                   <div className="case-content mb-60">
-                    <h2>Process</h2>
-                    <p>
-                      Interdum et malesuada fames ac ante ipsum primis in
-                      faucibus. Etiam eu nibh elementum, accumsan ona neque ac,
-                      aliquet nunc. In eu ipsum fringilla, accumsan purus vel,
-                      pellentesque risus. Vivamus vehicula nl pellentesque quis
-                      magna eu vestibulum. Ut sed Vivamus vehicula noted by thi
-                      ut, hendrerit vel tortor. In pharetra lectus luctus ornare
-                      sollicitudin.
-                    </p>
+                    <h2>Technology</h2>
                   </div>
                   <div className="row g-4 justify-content-center">
                     <div className="col-md-6">
