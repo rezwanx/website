@@ -83,11 +83,12 @@ function Banner3() {
             <div className="banner-wrapper">
               <div className="banner-content">
                 <h1>
-                  Accelerate your business with groundbreaking approaches..
+                  Digital Transformation? We Guide, Accompany, Advise & Support
+                  With Sensitivity.
                 </h1>
-                <p>
-                  Transform challenges into new opportunities with pioneering
-                  strategies, dynamic solutions, and forward-thinking insight.
+                <p className="sub-header">
+                  Leverage digital capabilities to achieve your business goals
+                  and unlock new revenue streams.
                 </p>
                 <div className="banner-btn-group">
                   <Link legacyBehavior href="/service">
@@ -150,10 +151,13 @@ function Banner3() {
           <SwiperSlide className="swiper-slide">
             <div className="banner-wrapper">
               <div className="banner-content">
-                <h1>Propel your venture forward with pioneering strategies.</h1>
-                <p>
-                  Fuel progress with adaptive tactics and forward-thinking
-                  solutions.
+                <h1>
+                  We Lead Your Business-Critical IT & Digital Projects To
+                  Success
+                </h1>
+                <p className="subheader">
+                  With our expertise, you can transform your business with
+                  technology that drives innovation and efficiency.
                 </p>
                 <div className="banner-btn-group">
                   <Link legacyBehavior href="/technology">
@@ -219,11 +223,12 @@ function Banner3() {
             <div className="banner-wrapper">
               <div className="banner-content">
                 <h1>
-                  Ignite sustainable growth through bold, innovative methods.
+                  Are You & Your Organization Facing A Groundbreaking Digital
+                  Transformation?
                 </h1>
-                <p>
-                  Turn obstacles into stepping stones through strategic
-                  foresight and inventive methods.
+                <p className="sub-header">
+                  Discover the power of digital transformation and unlock new
+                  opportunities for growth and success.
                 </p>
                 <div className="banner-btn-group">
                   <Link legacyBehavior href="/contact">
