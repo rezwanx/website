@@ -4026,16 +4026,16 @@ video {
 
 .home4-feature-area {
   background: #1b1f23;
-  padding: 120px 7% 270px;
+  padding: 120px 7% 120px;
 }
 @media (max-width: 1399px) {
   .home4-feature-area {
-    padding: 120px 3% 270px;
+    padding: 120px 3% 120px;
   }
 }
 @media (max-width: 991px) {
   .home4-feature-area {
-    padding: 80px 3% 230px;
+    padding: 80px 3% 120px;
   }
 }
 .home4-feature-area .section-title-4 p {
