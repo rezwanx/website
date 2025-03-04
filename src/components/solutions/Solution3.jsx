@@ -61,9 +61,9 @@ function Solution3() {
             <div className="section-title-3">
               <h2>Our Solutions</h2>
               <p>
-                Softconic leads companies in digital transformation - our
-                service offering ranges from "strategic consulting" to
-                "solutions delivered on the ground".
+                Everdots leads companies in digital transformation - our service
+                offering ranges from "strategic consulting" to "solutions
+                delivered on the ground".
               </p>
             </div>
             <div className="swiper-btn-group">

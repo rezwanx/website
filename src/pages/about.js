@@ -14,7 +14,7 @@ function AboutPage() {
     <Layout>
       <Breadcrumb
         pageList="About"
-        title="Get To Know About Softconic"
+        title="Get To Know About Everdots"
         pageName="ABOUT"
       />
       <About3 />

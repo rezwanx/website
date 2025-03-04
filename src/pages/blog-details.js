@@ -9,7 +9,7 @@ function BlogDetailsPage() {
     <Layout>
       <Breadcrumb
         pageList="BLOG MASONARY"
-        title="Exploring The Softconic Blog"
+        title="Exploring The Everdots Blog"
         pageName="Blog Masonary"
       />
       <BlogBanner />
