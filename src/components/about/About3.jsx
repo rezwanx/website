@@ -19,11 +19,11 @@ function About3() {
             >
               <h2>Our Approach</h2>
               <p>
-                At Softconic, we adopt a strategic and client-centric approach
-                to delivering innovative IT solutions tailored to meet the
-                evolving needs of modern businesses. Our expertise spans a wide
-                range of services, ensuring scalability, efficiency, and
-                reliability for organizations of all sizes.
+                At Everdots, we adopt a strategic and client-centric approach to
+                delivering innovative IT solutions tailored to meet the evolving
+                needs of modern businesses. Our expertise spans a wide range of
+                services, ensuring scalability, efficiency, and reliability for
+                organizations of all sizes.
               </p>
             </div>
             <div className="about-left">

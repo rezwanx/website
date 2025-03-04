@@ -218,7 +218,7 @@ function Footer5() {
               <div className="footer-btn-content">
                 <div className="copyright-area">
                   <p>
-                    ©Copyright 2023 <a href="#">Softconic</a> | Design By{" "}
+                    ©Copyright 2023 <a href="#">Everdots</a> | Design By{" "}
                     <a href="https://www.egenslab.com/">Egens Lab</a>
                   </p>
                 </div>

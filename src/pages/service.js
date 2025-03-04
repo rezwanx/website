@@ -346,7 +346,7 @@ function ServiceDetailsPage() {
                           aria-expanded="true"
                           aria-controls="collapseOne"
                         >
-                          What services does Softconic offer?
+                          What services does Everdots offer?
                         </button>
                       </h6>
                       <div
@@ -356,7 +356,7 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Softconic specializes in delivering cutting-edge IT
+                          Everdots specializes in delivering cutting-edge IT
                           solutions, including web development, cloud services,
                           cybersecurity, data analytics, and emerging technology
                           integration. Our services are tailored to meet the
@@ -374,8 +374,7 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseTwo"
                         >
-                          How does Softconic ensure the quality of its
-                          solutions?
+                          How does Everdots ensure the quality of its solutions?
                         </button>
                       </h6>
                       <div
@@ -402,7 +401,7 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseThree"
                         >
-                          Can Softconic handle custom project requirements?
+                          Can Everdots handle custom project requirements?
                         </button>
                       </h6>
                       <div
@@ -430,7 +429,7 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseFour"
                         >
-                          What industries does Softconic serve?
+                          What industries does Everdots serve?
                         </button>
                       </h6>
                       <div
@@ -440,7 +439,7 @@ function ServiceDetailsPage() {
                         data-bs-parent="#accordionExample"
                       >
                         <div className="accordion-body">
-                          Softconic serves a wide range of industries, including
+                          Everdots serves a wide range of industries, including
                           healthcare, finance, retail, education, and more. Our
                           versatile expertise allows us to adapt our solutions
                           to meet diverse industry demands.
@@ -458,7 +457,7 @@ function ServiceDetailsPage() {
                           aria-expanded="false"
                           aria-controls="collapseFive"
                         >
-                          How does Softconic support clients after project
+                          How does Everdots support clients after project
                           completion?
                         </button>
                       </h6>

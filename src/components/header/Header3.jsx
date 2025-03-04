@@ -93,7 +93,7 @@ function Header3() {
         </div>
         <div className="sidebar-content">
           <p>
-            Softconic IT services empower digital transformation through
+            Everdots IT services empower digital transformation through
             strategic insight and AI-driven innovation. We tailor solutions to
             your unique challenges, delivering sustainable growth and measurable
             impact.

@@ -9,7 +9,7 @@ function BlogPgage() {
     <Layout>
       <Breadcrumb
         pageList="Blog Grid"
-        title="Exploring The Softconic Blog"
+        title="Exploring The Everdots Blog"
         pageName="BLOG GRID"
       />
       <BlogBanner />

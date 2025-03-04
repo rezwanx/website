@@ -27,7 +27,7 @@ function Bannder5() {
   return (
     <div className="banner-area-wrapper">
       <div className="company-name">
-        <h2>Softconic</h2>
+        <h2>Everdots</h2>
       </div>
       <div className="banner-area">
         <div className="social-area">

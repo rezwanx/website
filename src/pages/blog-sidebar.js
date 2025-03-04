@@ -9,7 +9,7 @@ function BlogSidebarPage() {
     <Layout>
       <Breadcrumb
         pageList="BLOG SIDEBAR"
-        title="Exploring The Softconic Blog"
+        title="Exploring The Everdots Blog"
         pageName="Blog Sidebar"
       />
       <BlogBanner />
