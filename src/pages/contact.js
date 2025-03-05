@@ -59,7 +59,16 @@ function Contactpage() {
                       </li>
                       <li>
                         <a href="https://x.com/xeverdots">
-                          <i className="bx bxl-twitter" />
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                            fill="currentColor"
+                            class="bi bi-twitter-x"
+                            viewBox="0 0 16 16"
+                          >
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                          </svg>
                         </a>
                       </li>
                       <li>
@@ -80,26 +89,26 @@ function Contactpage() {
             <div className="col-lg-6">
               <div className="contact-form-wrap">
                 <div className="form-tltle">
-                  <h5>Make a Free Consulting</h5>
+                  <h5>Contact Us</h5>
                 </div>
                 <div className="contact-form">
                   <form>
                     <div className="row">
-                      <div className="col-md-6 mb-20">
+                      <div className="col-md-12 mb-20">
                         <div className="form-inner">
-                          <label>first name</label>
+                          <label>name</label>
                           <input type="text" />
                         </div>
                       </div>
-                      <div className="col-md-6 mb-20">
+                      {/* <div className="col-md-6 mb-20">
                         <div className="form-inner">
                           <label>Last name</label>
                           <input type="text" />
                         </div>
-                      </div>
+                      </div> */}
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
-                          <label>Company/Organization</label>
+                          <label>Organization</label>
                           <input type="text" />
                         </div>
                       </div>
