@@ -128,7 +128,7 @@ function Banner3() {
                   alt=""
                 />
               </div>
-              <div className="banner-video-area">
+              {/* <div className="banner-video-area">
                 <div className="video-area">
                   <div
                     data-fancybox="gallery"
@@ -154,7 +154,7 @@ function Banner3() {
                     alt=""
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
@@ -197,7 +197,7 @@ function Banner3() {
                   alt=""
                 />
               </div>
-              <div className="banner-video-area">
+              {/* <div className="banner-video-area">
                 <div className="video-area">
                   <div
                     data-fancybox="gallery"
@@ -225,7 +225,7 @@ function Banner3() {
                     alt=""
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </SwiperSlide>
           <SwiperSlide className="swiper-slide">
@@ -268,7 +268,7 @@ function Banner3() {
                   alt=""
                 />
               </div>
-              <div className="banner-video-area">
+              {/* <div className="banner-video-area">
                 <div className="video-area">
                   <div
                     data-fancybox="gallery"
@@ -294,12 +294,12 @@ function Banner3() {
                     alt=""
                   />
                 </div>
-              </div>
+              </div> */}
             </div>
           </SwiperSlide>
         </div>
       </Swiper>
-      <React.Fragment>
+      {/* <React.Fragment>
         <ModalVideo
           style={{ overlay: { zIndex: 9999 } }}
           channel="youtube"
@@ -308,7 +308,7 @@ function Banner3() {
           videoId="JSIwZ_tEP9o"
           onClose={() => setOpen(false)}
         />
-      </React.Fragment>
+      </React.Fragment> */}
     </div>
   );
 }
