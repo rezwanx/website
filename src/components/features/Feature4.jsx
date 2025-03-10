@@ -130,9 +130,9 @@ function Feature4() {
                       <div className="number">
                         <h3 className="counter">15</h3>
                         {/* <h3 className="ml-5">k</h3> */}
-                        <span>Customer</span>
+                        <span>Customers</span>
                       </div>
-                      <p>Satisfied Customer</p>
+                      <p>Satisfied Customer's</p>
                     </div>
                   </div>
                 </div>
@@ -189,7 +189,7 @@ function Feature4() {
                         <h3 className="counter">
                           <CountUp isCounting end={20} duration={3} />
                         </h3>
-                        <span>Project</span>
+                        <span>Projects</span>
                       </div>
                       <p>We Have Completed</p>
                     </div>
