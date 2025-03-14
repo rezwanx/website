@@ -1,8 +1,101 @@
 import Breadcrumb from "@/components/common/Breadcrumb";
 import Layout from "@/components/layout/Layout";
-import React from "react";
+import React, { useState } from "react";
+import { validateForm } from "@/utils/validation";
 
-function Contactpage() {
+function ContactPage() {
+  const [formData, setFormData] = useState({
+    name: "",
+    organization: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const [formErrors, setFormErrors] = useState({});
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState({
+    success: false,
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+
+    if (formErrors[name]) {
+      setFormErrors((prev) => ({
+        ...prev,
+        [name]: "",
+      }));
+    }
+  };
+
+  const clearStatusMessage = () => {
+    setSubmitStatus({
+      success: false,
+      message: "",
+    });
+  };
+
+  // Handling form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const { isValid, errors } = validateForm(formData);
+
+    if (!isValid) {
+      setFormErrors(errors);
+      return;
+    }
+
+    setIsSubmitting(true);
+    setSubmitStatus({ success: false, message: "" });
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setFormData({
+          name: "",
+          organization: "",
+          email: "",
+          phone: "",
+          message: "",
+        });
+        setFormErrors({});
+        setSubmitStatus({
+          success: true,
+          message: "Thank you! Your message has been sent successfully.",
+        });
+      } else {
+        setSubmitStatus({
+          success: false,
+          message: data.message || "Failed to send message. Please try again.",
+        });
+      }
+    } catch (error) {
+      setSubmitStatus({
+        success: false,
+        message: "An error occurred. Please try again later.",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <Layout>
       <Breadcrumb pageList="Contact" title="For Any Query" pageName="CONTACT" />
@@ -12,7 +105,7 @@ function Contactpage() {
             <div className="col-lg-6">
               <div className="contact-content">
                 <span>CONTACT WITH US</span>
-                <h2>LET’S WORK TOGETHER?</h2>
+                <h2>LET'S WORK TOGETHER?</h2>
                 <p>
                   Our dedicated support team is available to assist you via live
                   chat, email, and other channels. We guarantee a response to
@@ -43,7 +136,6 @@ function Contactpage() {
                     </div>
                     <div className="info">
                       <a href="mailto: info@everdots.com">info@everdots.com</a>
-                      {/* <a href="mailto: info@support.com">info@support.com</a> */}
                     </div>
                   </div>
                 </div>
@@ -64,7 +156,7 @@ function Contactpage() {
                             width="14"
                             height="14"
                             fill="currentColor"
-                            class="bi bi-twitter-x"
+                            className="bi bi-twitter-x"
                             viewBox="0 0 16 16"
                           >
                             <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
@@ -76,11 +168,6 @@ function Contactpage() {
                           <i className="bx bxl-instagram" />
                         </a>
                       </li>
-                      {/* <li>
-                        <a href="https://www.pinterest.com/">
-                          <i className="bx bxl-pinterest" />
-                        </a>
-                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -92,53 +179,125 @@ function Contactpage() {
                   <h5>Contact Us</h5>
                 </div>
                 <div className="contact-form">
-                  <form>
+                  <form onSubmit={handleSubmit}>
                     <div className="row">
                       <div className="col-md-12 mb-20">
                         <div className="form-inner">
-                          <label>name</label>
-                          <input type="text" />
-                        </div>
-                      </div>
-                      {/* <div className="col-md-6 mb-20">
-                        <div className="form-inner">
-                          <label>Last name</label>
-                          <input type="text" />
-                        </div>
-                      </div> */}
-                      <div className="col-lg-12 mb-20">
-                        <div className="form-inner">
-                          <label>Organization</label>
-                          <input type="text" />
-                        </div>
-                      </div>
-                      <div className="col-lg-12 mb-20">
-                        <div className="form-inner">
-                          <label>Email</label>
-                          <input type="email" />
+                          <label htmlFor="name">Name</label>
+                          <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            className={formErrors.name ? "is-invalid" : ""}
+                          />
+                          {formErrors.name && (
+                            <div className="invalid-feedback">
+                              {formErrors.name}
+                            </div>
+                          )}
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
-                          <label>Phone</label>
-                          <input type="email" />
+                          <label htmlFor="organization">Organization</label>
+                          <input
+                            type="text"
+                            id="organization"
+                            name="organization"
+                            value={formData.organization}
+                            onChange={handleChange}
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
-                          <label>Message</label>
-                          <textarea defaultValue={""} />
+                          <label htmlFor="email">Email</label>
+                          <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            value={formData.email}
+                            onChange={handleChange}
+                            className={formErrors.email ? "is-invalid" : ""}
+                          />
+                          {formErrors.email && (
+                            <div className="invalid-feedback">
+                              {formErrors.email}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      <div className="col-lg-12 mb-20">
+                        <div className="form-inner">
+                          <label htmlFor="phone">Phone</label>
+                          <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            value={formData.phone}
+                            onChange={handleChange}
+                            className={formErrors.phone ? "is-invalid" : ""}
+                          />
+                          {formErrors.phone && (
+                            <div className="invalid-feedback">
+                              {formErrors.phone}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                      <div className="col-lg-12 mb-20">
+                        <div className="form-inner">
+                          <label htmlFor="message">Message</label>
+                          <textarea
+                            id="message"
+                            name="message"
+                            value={formData.message}
+                            onChange={handleChange}
+                            className={formErrors.message ? "is-invalid" : ""}
+                          />
+                          {formErrors.message && (
+                            <div className="invalid-feedback">
+                              {formErrors.message}
+                            </div>
+                          )}
                         </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="form-inner">
-                          <button className="primary-btn3" type="submit">
-                            Submit
+                          <button
+                            className="primary-btn3"
+                            type="submit"
+                            disabled={isSubmitting}
+                          >
+                            {isSubmitting ? "Submitting..." : "Submit"}
                           </button>
                         </div>
                       </div>
                     </div>
                   </form>
+
+                  {submitStatus.message && (
+                    <div className="mt-4">
+                      <div
+                        className={`alert ${
+                          submitStatus.success
+                            ? "alert-success"
+                            : "alert-danger"
+                        } d-flex justify-content-between align-items-center`}
+                        role="alert"
+                      >
+                        <span>{submitStatus.message}</span>
+                        <button
+                          type="button"
+                          className="btn-close"
+                          aria-label="Close"
+                          onClick={clearStatusMessage}
+                        ></button>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -149,4 +308,4 @@ function Contactpage() {
   );
 }
 
-export default Contactpage;
+export default ContactPage;
