@@ -149,27 +149,27 @@ export default async function handler(req, res) {
               
               <div class="data-container">
                 <div class="data-row">
-                  <div class="data-label">Name:</div>
+                  <div class="data-label">Name:&nbsp;</div>
                   <div class="data-value">${name}</div>
                 </div>
                 <div class="data-row">
-                  <div class="data-label">Organization:</div>
+                  <div class="data-label">Organization:&nbsp;</div>
                   <div class="data-value">${
                     organization || "Not provided"
                   }</div>
                 </div>
                 <div class="data-row">
-                  <div class="data-label">Email:</div>
+                  <div class="data-label">Email:&nbsp;</div>
                   <div class="data-value">${email}</div>
                 </div>
                 <div class="data-row">
-                  <div class="data-label">Phone:</div>
+                  <div class="data-label">Phone:&nbsp;</div>
                   <div class="data-value">${phone}</div>
                 </div>
               </div>
               
               <div class="message-container">
-                <div class="message-label">Message:</div>
+                <div class="message-label">Message: </div>
                 <div class="message-content">${message}</div>
               </div>
               
